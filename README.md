@@ -3,11 +3,11 @@
 # Student: Ostap Matsko KI-46
 # Teacher: Mularevich Oleksandr
 
-To this repository i'll add to own projects:
+# To this repository i'll add to own projects:
 
 # 1-st:
-1) Theme -- Jewelry store -- 
-2) Technologies used: 
+# 1) Theme -- Jewelry store -- 
+# 2) Technologies used: 
      # Java
      # HTML/Css
      # Spring
@@ -16,11 +16,11 @@ To this repository i'll add to own projects:
      # JSTL
      # JS
      # Hibernate
-3)Tentative date of delivery:11/24/17
+# 3)Tentative date of delivery:11/24/17
 
 # 2-nd:
-1) Theme -- Flowers shop
-2) Technologies used: 
+# 1) Theme -- Flowers shop
+# 2) Technologies used: 
      # Java
      # HTML/Css
      # Spring
@@ -31,4 +31,4 @@ To this repository i'll add to own projects:
      # JS
      # Hibernate
      # Ajax
-3)Tentative date of delivery:12/01/17
+# 3)Tentative date of delivery:12/01/17
