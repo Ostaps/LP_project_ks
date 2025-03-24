@@ -11,16 +11,13 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 import java.security.Principal;
 
-/**
- * Created by Ostap on 20.11.2017.
- */
 @Controller
 public class UserController {
 
     @Autowired
     private UserService userService;
 
-    @RequestMapping(value = "/sign-up", method = RequestMethod.POST)
+    @RequestMapping(value = "/sign-ups", method = RequestMethod.POST)
     public String signIn(@RequestParam("name")String name,
                          @RequestParam("secondName")String secondName,
                          @RequestParam("email")String email,

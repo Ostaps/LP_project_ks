@@ -5,9 +5,6 @@ import ks.individual.lab.project.entity.Purchase;
 
 import java.util.List;
 
-/**
- * Created by Ostap on 20.11.2017.
- */
 public interface PurchaseService {
 
     void add(double amount, String userLogin, List<Commodity>commodityList);

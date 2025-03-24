@@ -16,7 +16,7 @@ public class Role {
     private int id;
     private String name;
 
-    @OneToMany(mappedBy = "role")
+    @OneToMany(mappedBy = "rolessss")
     private List<User> userList;
 
     public Role() {
