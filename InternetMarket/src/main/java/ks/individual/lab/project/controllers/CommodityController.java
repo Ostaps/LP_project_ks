@@ -10,9 +10,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 import java.util.List;
 
-/**
- * Created by Ostap on 20.11.2017.
- */
+
 @Controller
 public class CommodityController {
 
@@ -24,4 +22,5 @@ public class CommodityController {
     public List<CommodityDto> findAllCommodities() {
         return commodityService.findAll();
     }
+    
 }

@@ -2,9 +2,6 @@ package ks.individual.lab.project.dto;
 
 import ks.individual.lab.project.entity.User;
 
-/**
- * Created by Ostap on 20.11.2017.
- */
 public class UserDto {
     private String name;
     private String secondName;
