@@ -7,10 +7,21 @@ on:
 jobs:
   review:
     runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v3
 
-      - name: Run ReviewGPT
-        uses: DanielGross/ReviewGPT@main
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies and run ReviewGPT
+        run: |
+          git clone https://github.com/DanielGross/ReviewGPT.git
+          cd ReviewGPT
+          pip install -r requirements.txt
+          python review.py $GITHUB_WORKSPACE
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
