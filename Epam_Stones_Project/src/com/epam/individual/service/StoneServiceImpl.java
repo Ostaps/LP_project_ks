@@ -18,6 +18,8 @@ public class StoneServiceImpl implements StoneService {
 	@Override
 	@Transactional
 	public List<Stones> getStones() {
+	
+		
 		
 		return stoneDAO.getStones();
 	}

@@ -18,6 +18,7 @@ public class StoneController {
 	@Autowired
 	private StoneService stoneSevice;
 	
+	
 	@GetMapping("/")
 	public String getMenu(){
 		
